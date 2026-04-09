@@ -69,7 +69,7 @@ export default function Footerctc(){
               
       }}
       transition={{
-        duration: 1.5,
+        duration: 2.5,
         repeat: Infinity,
         ease: "easeIn",
       }}
