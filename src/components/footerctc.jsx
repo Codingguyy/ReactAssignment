@@ -64,12 +64,15 @@ export default function Footerctc(){
   />
 </svg>     <div className="max-w-9xl w-screen flex flex-col items-center bg-[#D7EEDD]">
                 <div className="w-fit flex flex-col items-center justify-start justify-start py-8  md:py-6 lg:py-9">
-                    <motion.h1  animate={{ backgroundPositionX: ["200%", "-200%"] }} 
-        transition={{
-          duration: 7,
-          repeat: Infinity,
-          ease: "linear",
-        }}
+                    <motion.h1  animate={{
+        opacity: [0.85, 1, 0.85], 
+        scale: [1, 1.02, 1],      
+      }}
+      transition={{
+        duration: 2.5,
+        repeat: Infinity,
+        ease: "easeInOut",
+      }}
       className="text-secondary break-words text-center text-xl md:text-3xl lg:text-6xl lg:w-[500px]" style={{fontFamily:"'Roboto Mono',monospace"}}>{"Subscribe to our newsletter"}</motion.h1>
                     <p className="hidden text-secondary break-words text-xs sm:block md:text-tsx lg:text-xm">To make ur stay more special and even more memoriable</p>
                     <motion.button whileHover={{scale:1.02}} whileTap={{scale:0.98,boxShadow: "0px 3px 0px rgba(0,0,0,0.15)",
