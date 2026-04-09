@@ -65,8 +65,8 @@ export default function Footerctc(){
 </svg>     <div className="max-w-9xl w-screen flex flex-col items-center bg-[#D7EEDD]">
                 <div className="w-fit flex flex-col items-center justify-start justify-start py-8  md:py-6 lg:py-9">
                     <motion.h1  animate={{
-        opacity: [0.55, 1, 0.55], 
-        scale: [1, 1.005, 1,1.005,1],      
+        opacity: [0.45, 1, 0.55], 
+              
       }}
       transition={{
         duration: 1.5,
