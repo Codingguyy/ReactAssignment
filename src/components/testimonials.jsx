@@ -1,4 +1,5 @@
 import React from 'react'
+import { motion } from 'framer-motion'
 import Testavatar from '../assets/testavatar'
 export default function Testimonials(){
     return(
@@ -22,7 +23,14 @@ export default function Testimonials(){
   </h1>
 
   
-  <div className="relative bg-[#D7EEDD4D] rounded-[27px] px-8 py-6 w-[87%] sm:w-[45%] md:w-[45%]">
+  <motion.div animate={{
+        scale: [1, 1.02, 0.98, 1], 
+      }}
+      transition={{
+        duration: 2,      
+        repeat: Infinity, 
+        ease: "easeInOut",
+      }}className="relative bg-[#D7EEDD4D] rounded-[27px] px-8 py-6 w-[87%] sm:w-[45%] md:w-[45%]">
    <span
       className="absolute  font-bold leading-none align-bottom text-[26px] left-[3%] top-[7%]sm:text-[34px] sm:left-[5%] sm:top-[13%] md:text-[47px] md:left-[1.7%] md:top-[11%] lg:right-[87%] lg:top-[11%] lg:text-[70px]"
       style={{ fontFamily: "'Georgia', serif", color: '#D1D5DB', letterSpacing: '1px' ,lineheight:0,verticalAlign:'-0.5em'}}
@@ -46,7 +54,7 @@ export default function Testimonials(){
     
   </p>
 
-</div>
+</motion.div>
 
 </div>
         </section>
