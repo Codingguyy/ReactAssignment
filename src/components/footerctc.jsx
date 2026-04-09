@@ -69,9 +69,9 @@ export default function Footerctc(){
               
       }}
       transition={{
-        duration: 2.5,
+        duration: 3.3,
         repeat: Infinity,
-        ease: "easeIn",
+        ease:"linear",
       }}
       className="text-secondary break-words text-center text-xl md:text-3xl lg:text-6xl lg:w-[500px]" style={{fontFamily:"'Roboto Mono',monospace"}}>{"Subscribe to our newsletter"}</motion.h1>
                     <p className="hidden text-secondary break-words text-xs sm:block md:text-tsx lg:text-xm">To make ur stay more special and even more memoriable</p>
