@@ -66,7 +66,7 @@ export default function Footerctc(){
                 <div className="w-fit flex flex-col items-center justify-start justify-start py-8  md:py-6 lg:py-9">
                     <motion.h1  animate={{ backgroundPositionX: ["200%", "-200%"] }} 
         transition={{
-          duration: 3,
+          duration: 7,
           repeat: Infinity,
           ease: "linear",
         }}
