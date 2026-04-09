@@ -66,10 +66,10 @@ export default function Footerctc(){
                 <div className="w-fit flex flex-col items-center justify-start justify-start py-8  md:py-6 lg:py-9">
                     <motion.h1  animate={{
         opacity: [0.65, 1, 0.85], 
-        scale: [1, 1.01, 1],      
+        scale: [1, 1.01, 1,1.01,1],      
       }}
       transition={{
-        duration: 7,
+        duration: 2.5,
         repeat: Infinity,
         ease: "easeInOut",
       }}
