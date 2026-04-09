@@ -27,7 +27,7 @@ export default function Testimonials(){
         scale: [1, 1.02, 0.98, 1], 
       }}
       transition={{
-        duration: 2,      
+        duration: 10,      
         repeat: Infinity, 
         ease: "easeInOut",
       }}className="relative bg-[#D7EEDD4D] rounded-[27px] px-8 py-6 w-[87%] sm:w-[45%] md:w-[45%]">
